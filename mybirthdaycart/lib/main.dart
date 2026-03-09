@@ -9,6 +9,28 @@ class birthCardApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      home: TelaPrincipalApp(),
+    );
   }
 }
+
+class TelaPrincipalApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold( 
+      appBar: AppBar(
+        title: Text('cartao de visita'),
+      ),
+      body: Center(
+        child: Column(
+          children: [
+            Text("Ola testee")
+          ],)
+      ),
+    );
+  }
+}
+
+
+
