@@ -32,6 +32,14 @@ class TelaPrincipalApp extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
+              
+              Icon(
+                Icons.bolt,          
+                size: 80,            
+                color: Colors.yellow, 
+              ),
+              SizedBox(height: 20), 
+
               Text("Alexandre Takiguchi",
                 style: TextStyle(
                   fontSize: 32,              
