@@ -29,12 +29,15 @@ class TelaPrincipalApp extends StatelessWidget {
             fit: BoxFit.cover, 
             ),
           ),
-        child: Column(
-          children: [
-            Text("Ola testee")
-          ],)
-      ),
-    );
+        child: Center(
+          child: Column(
+            children: [],
+            ),
+          ),
+        ),
+      );
+          
+  
   }
 }
 
