@@ -31,7 +31,25 @@ class TelaPrincipalApp extends StatelessWidget {
           ),
         child: Center(
           child: Column(
-            children: [],
+            children: [
+              Text("Alexandre Takiguchi",
+                style: TextStyle(
+                  fontSize: 32,              
+                  fontWeight: FontWeight.bold, 
+                  color: const Color.fromARGB(255, 4, 0, 0),)),
+
+              Text("Especialista em Arquitetura de Software",
+                style: TextStyle(
+                  fontSize: 16,              
+                  color: const Color.fromARGB(179, 119, 0, 255),     
+                  fontStyle: FontStyle.italic,
+                  ),
+              ),
+              
+              Text("Entre em contato !!!!"), 
+              Text("14997489023"),
+              Text("EspecialistaSenior@Gmail.com")
+            ],
             ),
           ),
         ),
