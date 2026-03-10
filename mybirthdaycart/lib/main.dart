@@ -22,7 +22,13 @@ class TelaPrincipalApp extends StatelessWidget {
       appBar: AppBar(
         title: Text('cartao de visita'),
       ),
-      body: Center(
+      body: Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(image:
+            AssetImage("assets/background.png"),
+            fit: BoxFit.cover, 
+            ),
+          ),
         child: Column(
           children: [
             Text("Ola testee")
