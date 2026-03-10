@@ -29,7 +29,7 @@ class TelaPrincipalApp extends StatelessWidget {
           child: Column(
             children: [
               Icon(Icons.bolt, size: 80, color: Colors.yellow),
-              SizedBox(height: 20),
+              //SizedBox(height: 20),
 
               Text(
                 "Alexandre Takiguchi",
@@ -43,45 +43,35 @@ class TelaPrincipalApp extends StatelessWidget {
               Text(
                 "Especialista em Arquitetura de Software",
                 style: TextStyle(
-                  fontSize: 16,
+                  fontSize: 14,
                   color: const Color.fromARGB(179, 119, 0, 255),
                   fontStyle: FontStyle.italic,
+                  
                 ),
               ),
-
+              SizedBox(height: 400),
               Row(
-                mainAxisAlignment:
-                    MainAxisAlignment.center, 
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(
-                    Icons.phone, 
-                    color: Colors.white, 
-                  ),
-                  SizedBox(
-                    width: 10,
-                  ), 
+                  Icon(Icons.phone, color: const Color.fromARGB(255, 1, 255, 60)),
+                  SizedBox(width: 10),
                   Text(
                     "+55 (14) 99748-9023",
-                    style: TextStyle(color: Colors.white, fontSize: 18),
+                    style: TextStyle(color: const Color.fromARGB(255, 0, 0, 0), fontSize: 18),
                   ),
                 ],
               ),
+              //SizedBox(height: 30),
               Row(
-                mainAxisAlignment:
-                    MainAxisAlignment.center, 
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(
-                    Icons.email, 
-                    color: Colors.white,
-                  ),
-                  SizedBox(
-                    width: 10,
-                  ),
+                  Icon(Icons.email, color: const Color.fromARGB(255, 243, 0, 0)),
+                  SizedBox(width: 10),
                   Text(
                     "Especialista@gmail.com",
-                    style: TextStyle(color: Colors.white, fontSize: 18),
-                  ), 
-                ]
+                    style: TextStyle(color: const Color.fromARGB(255, 0, 0, 0), fontSize: 18),
+                  ),
+                ],
               ),
             ],
           ),
